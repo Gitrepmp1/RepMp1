@@ -1,0 +1,9 @@
+{
+	"name": "ADFGIT1",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c77f170e-c660-4568-a2f5-4ef655137cac",
+		"tenantId": "7701b12a-9732-4333-8351-ba2a115f15c0"
+	}
+}
