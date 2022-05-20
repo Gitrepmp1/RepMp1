@@ -1,0 +1,45 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_git_sa1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "sql.csv.txt",
+				"folderPath": "Input",
+				"container": "cont1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Emp_Id int",
+				"type": "String"
+			},
+			{
+				"name": "Emp_Name varchar(50)",
+				"type": "String"
+			},
+			{
+				"name": "City varchar(20)",
+				"type": "String"
+			},
+			{
+				"name": "Department varchar(50)",
+				"type": "String"
+			},
+			{
+				"name": "Salary int",
+				"type": "String"
+			}
+		]
+	}
+}
